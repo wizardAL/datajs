@@ -1,0 +1,174 @@
+.search {
+	margin: 20px;
+	height: 30px;
+	position: relative;
+}
+.search span {
+	border-top: 1px solid #d0d0d0;
+	width: 175px;
+	display: inline-block;
+	*display: inline;
+}
+.search .datepicker {
+	width: 173px;
+	height: 28px;
+	line-height: 28px;
+	background: url("../img/uicon.png") no-repeat scroll 140px -214px #F3F3F3;
+	cursor: pointer;
+	border-top: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+}
+.search .datepicker:hover {
+	background-position: 140px -240px;
+}
+.search .datepicker:active {
+	background-position: 140px -266px;
+}
+.search .search_btn {
+	position: absolute;
+	right: 9px;
+	top: 0;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	background: url("../img/btns.png") no-repeat scroll 0 -201px transparent;
+}
+.search .dateto {
+	padding: 0 10px;
+	width: 14px;
+	display: inline-block;
+	border: none;
+	position: relative;
+}
+.search .dateto b {
+	font-weight: normal;
+	position: absolute;
+	top: -15px;
+	*top: -22px;
+	left: 10px;
+}
+
+#account .calender_msg {  
+    position: absolute;
+    width: 358px;
+    z-index: 99;
+    display:none;
+    
+}
+.calender_msg  .r_top_msg{
+    display: inline-block;
+    overflow: hidden;
+    zoom:1;
+    position: relative; 
+    background: url("http://pc1.gtimg.com/guanjia/images/user/calender.png") no-repeat;
+    width:358px;
+    height:12px;   
+}
+
+.calender_msg .r_mid_hassignmsg {
+    border-left: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+    width: 356px;
+    float:left;
+    background-color: #ffffff;      
+}
+.calender_msg .suc_title{
+    float:left;
+    width:231px;
+    background: url("http://pc2.gtimg.com/td/site/pcmgr/img/suc_qiandao.gif") no-repeat scroll 0 0 transparent;
+    height:50px;
+    margin:0px 20px;
+    padding-left:50px;
+    display:inline;
+    line-height: 36px;
+    
+}
+
+.calender_msg #mycalenderdiv {
+    background-color: #FFFFFF;
+    border-left: 1px solid #DBDBDB;
+    font-size: 12px;
+    width: 357px;
+}
+.calender_msg .date_content{
+     float:left;
+     width:163px;
+     text-align:center;
+     font-weight:bold;
+     font-size:14px;
+     line-height:30px;
+}
+.calender_msg #mycalenderdiv .arow_left_calendar {
+    float:left;
+    margin-left:91px;
+    display:inline;
+    width:9px;
+    height:16px;
+    margin-top:8px;
+    display:inline;
+    background: url("http://pc2.gtimg.com/td/site/pcmgr/img/arow_left_calendar.gif") no-repeat;
+    cursor: pointer;        
+}
+.calender_msg #mycalenderdiv .arow_right_calendar {
+    float:left;
+    display:inline;
+    width:9px;
+    height:16px;
+    background: url("http://pc2.gtimg.com/td/site/pcmgr/img/arow_right_calendar.gif") no-repeat;
+    margin-top:8px;
+    display:inline;
+    cursor: pointer;    
+}
+.calender_msg #mycalenderdiv .right_calendar {
+    float:left;
+    display:inline;
+    width:9px;
+    height:16px;
+    background: url("http://pc2.gtimg.com/td/site/pcmgr/img/arow_right_calendar.gif") no-repeat;
+    margin-top:8px;
+    display:inline; 
+}
+.calender_msg #mycalenderdiv TD {
+    border-bottom: 1px solid #DBDBDB;
+    border-right: 1px solid #DBDBDB;
+    color: #333333;
+    height: 35px;
+    padding-left: 5px;
+    padding-top: 5px;
+    vertical-align: top;
+    width: 40px;
+}
+.calender_msg #mycalenderdiv TD.have_day { cursor: pointer; }
+.calender_msg #mycalenderdiv TD.set{ border:1px solid #479ceb; }
+.calender_msg .pop_content{
+    cursor:pointer;
+}
+.calender_msg #mycalenderdiv #cal_title {
+    /*background-color: #F9FAFC;*/
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    width: 356px;
+}
+.calender_msg #mycalenderdiv #week Th {
+    background-color:#479ceb;
+    text-align: center;
+    /*border-bottom:solid 1px #C2D4DE;*/
+    height:26px;
+    line-height:26px;
+    color: #ffffff;
+    /*border-top:solid 1px #ffffff;*/
+    
+}
+.calender_msg #mycalenderdiv #week .l_line{
+    border-left: 1px solid #479ceb;        
+}
+.calender_msg #mycalenderdiv #week .r_line{
+    border-right: 1px solid #479ceb;        
+}
